@@ -13,9 +13,8 @@ namespace Microsoft.ProjectOxford.Search.Autosuggest
 
         public AutosuggestResponse()
         {
-            this.Instrumentation = new Instrumentation();
             this.QueryContext = new QueryContext();
-            this.SuggestionGroups = new SuggestionGroups();
+            this.SuggestionGroups = new List<SuggestionGroup>();
         }
 
         #endregion Constructors
@@ -29,13 +28,6 @@ namespace Microsoft.ProjectOxford.Search.Autosuggest
             set;
         }
 
-        [JsonProperty("instrumentation")]
-        public Instrumentation Instrumentation
-        {
-            get;
-            set;
-        }
-
         [JsonProperty("queryConext")]
         public QueryContext QueryContext
         {
@@ -44,7 +36,7 @@ namespace Microsoft.ProjectOxford.Search.Autosuggest
         }
 
         [JsonProperty("suggestionGroups")]
-        public SuggestionGroups SuggestionGroups
+        public List<SuggestionGroup> SuggestionGroups
         {
             get;
             set;

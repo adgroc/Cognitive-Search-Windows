@@ -47,11 +47,10 @@
     <Compile Include="Autosuggest\AutosuggestClient.cs" />
     <Compile Include="Autosuggest\AutosuggestRequest.cs" />
     <Compile Include="Autosuggest\AutosuggestResponse.cs" />
-    <Compile Include="Autosuggest\Instrumentation.cs" />
     <Compile Include="Autosuggest\QueryContext.cs" />
     <Compile Include="Autosuggest\QueryNotSpecifiedException.cs" />
     <Compile Include="Autosuggest\SearchSuggestion.cs" />
-    <Compile Include="Autosuggest\SuggestionGroups.cs" />
+    <Compile Include="Autosuggest\SuggestionGroup.cs" />
     <Compile Include="Core\SearchClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

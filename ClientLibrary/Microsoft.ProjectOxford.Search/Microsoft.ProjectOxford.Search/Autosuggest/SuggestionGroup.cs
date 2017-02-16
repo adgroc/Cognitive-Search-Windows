@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace Microsoft.ProjectOxford.Search.Autosuggest
 {
-    public class SuggestionGroups
+    public class SuggestionGroup
     {
         #region Constructors
 
-        public SuggestionGroups()
+        public SuggestionGroup()
         {
             this.SearchSuggestions = new List<SearchSuggestion>();
         }

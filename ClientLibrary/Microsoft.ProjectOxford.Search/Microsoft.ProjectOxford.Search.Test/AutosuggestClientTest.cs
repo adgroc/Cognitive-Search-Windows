@@ -1,12 +1,32 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Microsoft.ProjectOxford.Search.Autosuggest;
+using System.Configuration;
 
 namespace Microsoft.ProjectOxford.Search.Test
 {
     [TestClass]
-    public class AutosuggestClientTest : SearchTest
+    public class AutosuggestClientTest
     {
+        #region Fields
+
+        protected string apiKey = "";
+
+        #endregion Fields
+
+        #region Test Initialization
+
+        /// <summary>
+        /// Intializes this instance.
+        /// </summary>
+        [TestInitialize]
+        public void Intialize()
+        {
+            apiKey = ConfigurationManager.AppSettings["autosuggestApiKey"];
+        }
+
+        #endregion Test Initialization
+
         #region Test Methods
 
         [TestMethod]
@@ -30,7 +50,8 @@ namespace Microsoft.ProjectOxford.Search.Test
 
             var response = client.GetSuggestions(request);
 
-            Assert.Inconclusive();
+            Assert.IsTrue(response.SuggestionGroups.Count >= 0);
+            Assert.IsTrue(response.SuggestionGroups[0].SearchSuggestions.Count >= 0);
         }
 
         #endregion Test Methods
