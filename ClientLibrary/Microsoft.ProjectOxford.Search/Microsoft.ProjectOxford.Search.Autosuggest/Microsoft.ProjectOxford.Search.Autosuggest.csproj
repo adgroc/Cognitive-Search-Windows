@@ -44,7 +44,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AutosuggestResponse.cs" />
+    <Compile Include="Instrumentation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueryContext.cs" />
     <Compile Include="SearchSuggestion.cs" />
     <Compile Include="SuggestionGroups.cs" />
   </ItemGroup>
