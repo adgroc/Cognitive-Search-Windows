@@ -54,10 +54,14 @@
     <Compile Include="Autosuggest\SearchSuggestion.cs" />
     <Compile Include="Autosuggest\SuggestionGroup.cs" />
     <Compile Include="Core\SearchClient.cs" />
+    <Compile Include="Core\Thumbnail.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Video\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
