@@ -7,6 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.ProjectOxford.Sea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.ProjectOxford.Search.Test", "Microsoft.ProjectOxford.Search.Test\Microsoft.ProjectOxford.Search.Test.csproj", "{FC2682E1-3280-4DF8-A083-13EA1C4BCE99}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{06F24B64-BBEB-4A90-9C5C-52FAF537281A}"
+	ProjectSection(SolutionItems) = preProject
+		Microsoft.ProjectOxford.Search\develop.nuspec = Microsoft.ProjectOxford.Search\develop.nuspec
+		Microsoft.ProjectOxford.Search\master.nuspec = Microsoft.ProjectOxford.Search\master.nuspec
+		Microsoft.ProjectOxford.Search\Microsoft.ProjectOxford.Search.nuspec = Microsoft.ProjectOxford.Search\Microsoft.ProjectOxford.Search.nuspec
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
