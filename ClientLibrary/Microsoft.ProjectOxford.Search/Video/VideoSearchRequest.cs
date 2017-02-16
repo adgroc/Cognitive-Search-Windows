@@ -5,14 +5,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Microsoft.ProjectOxford.Search.Autosuggest
+namespace Microsoft.ProjectOxford.Search.Video
 {
+
     /// <summary>
-    /// Request for interacting with the search autosuggest API.
+    /// Request for interacting with the video search API.
     /// </summary>
     /// <seealso cref="Microsoft.ProjectOxford.Search.Core.ISearchRequest" />
-    public class AutosuggestRequest : ISearchRequest
+    public class VideoSearchRequest : ISearchRequest
     {
+        #region Constructors
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="VideoSearchRequest"/> class.
+        /// </summary>
+        public VideoSearchRequest()
+        {
+            this.SafeSearch = SafeSearch.Moderate;
+        }
+
+        #endregion Constructors
+
         #region Properties
 
         /// <summary>
@@ -28,12 +41,48 @@ namespace Microsoft.ProjectOxford.Search.Autosuggest
         }
 
         /// <summary>
+        /// Gets or sets the count.
+        /// </summary>
+        /// <value>
+        /// The count.
+        /// </value>
+        public int Count
+        {
+            get;
+            set;
+        }
+
+        /// <summary>
+        /// Gets or sets the offset.
+        /// </summary>
+        /// <value>
+        /// The offset.
+        /// </value>
+        public int Offset
+        {
+            get;
+            set;
+        }
+
+        /// <summary>
         /// Gets or sets the market.
         /// </summary>
         /// <value>
         /// The market.
         /// </value>
         public string Market
+        {
+            get;
+            set;
+        }
+
+        /// <summary>
+        /// Gets or sets the safe search.
+        /// </summary>
+        /// <value>
+        /// The safe search.
+        /// </value>
+        public SafeSearch SafeSearch
         {
             get;
             set;

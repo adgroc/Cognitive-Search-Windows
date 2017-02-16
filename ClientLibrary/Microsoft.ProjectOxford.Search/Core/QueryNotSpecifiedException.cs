@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Microsoft.ProjectOxford.Search.Autosuggest
+namespace Microsoft.ProjectOxford.Search.Core
 {
     /// <summary>
     /// Exception thrown when a query is not specified.
