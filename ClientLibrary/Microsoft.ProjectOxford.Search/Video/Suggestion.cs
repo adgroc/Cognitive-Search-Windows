@@ -9,10 +9,22 @@ using Microsoft.ProjectOxford.Search.Core;
 namespace Microsoft.ProjectOxford.Search.Video
 {
     /// <summary>
-    /// Suggestiong returned from video search API.
+    /// Suggestiong returned by the video search API.
     /// </summary>
     public class Suggestion
     {
+        #region Constructors
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Suggestion"/> class.
+        /// </summary>
+        public Suggestion()
+        {
+            this.Thumbnail = new Thumbnail();
+        }
+
+        #endregion
+
         #region Properties
 
         /// <summary>
