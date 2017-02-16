@@ -55,6 +55,7 @@
     <Compile Include="Autosuggest\SuggestionGroup.cs" />
     <Compile Include="Core\SearchClient.cs" />
     <Compile Include="Video\PivotSuggestion.cs" />
+    <Compile Include="Video\QueryExpansion.cs" />
     <Compile Include="Video\Suggestion.cs" />
     <Compile Include="Core\Thumbnail.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
