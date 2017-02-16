@@ -16,6 +16,24 @@ namespace Microsoft.ProjectOxford.Search.Autosuggest
             set;
         }
 
+        public string Market
+        {
+            get;
+            set;
+        }
+
         #endregion Properties
+
+        #region Methods
+
+        public void Validate()
+        {
+            if (String.IsNullOrWhiteSpace(this.Query))
+            {
+                throw new QueryNotSpecifiedException();
+            }
+        }
+
+        #endregion Methods
     }
 }
