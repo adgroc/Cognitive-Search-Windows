@@ -57,6 +57,7 @@
     <Compile Include="Core\ThumbnailDimensions.cs" />
     <Compile Include="Video\Creator.cs" />
     <Compile Include="Video\PivotSuggestion.cs" />
+    <Compile Include="Video\Publisher.cs" />
     <Compile Include="Video\QueryExpansion.cs" />
     <Compile Include="Video\Suggestion.cs" />
     <Compile Include="Core\Thumbnail.cs" />
