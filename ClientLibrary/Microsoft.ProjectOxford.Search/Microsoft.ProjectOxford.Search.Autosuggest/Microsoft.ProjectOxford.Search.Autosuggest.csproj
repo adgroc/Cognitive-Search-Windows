@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AutosuggestRequest.cs" />
     <Compile Include="AutosuggestResponse.cs" />
     <Compile Include="Instrumentation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
