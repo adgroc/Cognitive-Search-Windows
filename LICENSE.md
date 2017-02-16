@@ -1,6 +1,12 @@
-MIT License
+![Search](Docs/Images/icon.png)
 
-Copyright (c) 2017 Adam Grocholski
+Microsoft Cognitive Services Search SDK
+
+Copyright (c) 2016 Adam Grocholski
+
+All rights reserved.
+
+MIT License
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
