@@ -6,16 +6,31 @@ using System.Threading.Tasks;
 
 namespace Microsoft.ProjectOxford.Search.Autosuggest
 {
+    /// <summary>
+    /// Request for interacting with the search autosuggest API.
+    /// </summary>
     public class AutosuggestRequest
     {
         #region Properties
 
+        /// <summary>
+        /// Gets or sets the query.
+        /// </summary>
+        /// <value>
+        /// The query.
+        /// </value>
         public string Query
         {
             get;
             set;
         }
 
+        /// <summary>
+        /// Gets or sets the market.
+        /// </summary>
+        /// <value>
+        /// The market.
+        /// </value>
         public string Market
         {
             get;
@@ -26,6 +41,10 @@ namespace Microsoft.ProjectOxford.Search.Autosuggest
 
         #region Methods
 
+        /// <summary>
+        /// Validates this instance.
+        /// </summary>
+        /// <exception cref="QueryNotSpecifiedException"></exception>
         public void Validate()
         {
             if (String.IsNullOrWhiteSpace(this.Query))

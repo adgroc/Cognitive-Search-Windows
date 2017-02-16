@@ -9,10 +9,18 @@ using System.Net;
 
 namespace Microsoft.ProjectOxford.Search.Autosuggest
 {
+    /// <summary>
+    /// Client for interacting with the search autosuggest API.
+    /// </summary>
+    /// <seealso cref="Microsoft.ProjectOxford.Search.Core.SearchClient" />
     public class AutosuggestClient : SearchClient
     {
         #region Constructors
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="AutosuggestClient"/> class.
+        /// </summary>
+        /// <param name="apiKey">The API key.</param>
         public AutosuggestClient(string apiKey)
             : base(apiKey)
         {
@@ -23,11 +31,21 @@ namespace Microsoft.ProjectOxford.Search.Autosuggest
 
         #region Methods
 
+        /// <summary>
+        /// Gets the suggestions.
+        /// </summary>
+        /// <param name="request">The request.</param>
+        /// <returns></returns>
         public AutosuggestResponse GetSuggestions(AutosuggestRequest request)
         {
             return GetSuggestionsAsync(request).Result;
         }
 
+        /// <summary>
+        /// Gets the suggestions asynchronously.
+        /// </summary>
+        /// <param name="request">The request.</param>
+        /// <returns></returns>
         public async Task<AutosuggestResponse> GetSuggestionsAsync(AutosuggestRequest request)
         {
             var requestUrl = string.Format("{0}/?q={1}", this.Url, WebUtility.UrlEncode(request.Query));

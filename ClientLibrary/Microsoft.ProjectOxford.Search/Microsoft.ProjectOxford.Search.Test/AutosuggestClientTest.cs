@@ -5,12 +5,15 @@ using System.Configuration;
 
 namespace Microsoft.ProjectOxford.Search.Test
 {
+    /// <summary>
+    /// Unit tests for the AutosuggestClient class.
+    /// </summary>
     [TestClass]
     public class AutosuggestClientTest
     {
         #region Fields
 
-        protected string apiKey = "";
+        private string apiKey = "";
 
         #endregion Fields
 
@@ -29,6 +32,9 @@ namespace Microsoft.ProjectOxford.Search.Test
 
         #region Test Methods
 
+        /// <summary>
+        /// Tests the validate method to ensure a query is specified.
+        /// </summary>
         [TestMethod]
         [TestCategory("Autosuggest")]
         [ExpectedException(typeof(QueryNotSpecifiedException))]
@@ -38,6 +44,9 @@ namespace Microsoft.ProjectOxford.Search.Test
             request.Validate();
         }
 
+        /// <summary>
+        /// Tests the GetSuggestions method.
+        /// </summary>
         [TestMethod]
         [TestCategory("Autosuggest")]
         public void GetSuggestionsTest()

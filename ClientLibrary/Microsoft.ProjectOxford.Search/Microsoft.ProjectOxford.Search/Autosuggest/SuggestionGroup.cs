@@ -7,10 +7,16 @@ using System.Threading.Tasks;
 
 namespace Microsoft.ProjectOxford.Search.Autosuggest
 {
+    /// <summary>
+    /// Suggestion group returned by the search autosuggest API.
+    /// </summary>
     public class SuggestionGroup
     {
         #region Constructors
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="SuggestionGroup"/> class.
+        /// </summary>
         public SuggestionGroup()
         {
             this.SearchSuggestions = new List<SearchSuggestion>();
@@ -20,6 +26,12 @@ namespace Microsoft.ProjectOxford.Search.Autosuggest
 
         #region Properties
 
+        /// <summary>
+        /// Gets or sets the name.
+        /// </summary>
+        /// <value>
+        /// The name.
+        /// </value>
         [JsonProperty("name")]
         public string Name
         {
@@ -27,6 +39,12 @@ namespace Microsoft.ProjectOxford.Search.Autosuggest
             set;
         }
 
+        /// <summary>
+        /// Gets or sets the search suggestions.
+        /// </summary>
+        /// <value>
+        /// The search suggestions.
+        /// </value>
         [JsonProperty("searchSuggestions")]
         public List<SearchSuggestion> SearchSuggestions
         {

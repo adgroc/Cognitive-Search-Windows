@@ -7,10 +7,19 @@ using System.Threading.Tasks;
 
 namespace Microsoft.ProjectOxford.Search.Autosuggest
 {
+    /// <summary>
+    /// Search suggestion returned by the search autosuggest API.
+    /// </summary>
     public class SearchSuggestion
     {
         #region Properties
 
+        /// <summary>
+        /// Gets or sets the URL.
+        /// </summary>
+        /// <value>
+        /// The URL.
+        /// </value>
         [JsonProperty("url")]
         public string Url
         {
@@ -18,6 +27,12 @@ namespace Microsoft.ProjectOxford.Search.Autosuggest
             set;
         }
 
+        /// <summary>
+        /// Gets or sets the URL ping suffix.
+        /// </summary>
+        /// <value>
+        /// The URL ping suffix.
+        /// </value>
         [JsonProperty("urlPingSuffix")]
         public string UrlPingSuffix
         {
@@ -25,6 +40,12 @@ namespace Microsoft.ProjectOxford.Search.Autosuggest
             set;
         }
 
+        /// <summary>
+        /// Gets or sets the display text.
+        /// </summary>
+        /// <value>
+        /// The display text.
+        /// </value>
         [JsonProperty("displayText")]
         public string DisplayText
         {
@@ -32,6 +53,12 @@ namespace Microsoft.ProjectOxford.Search.Autosuggest
             set;
         }
 
+        /// <summary>
+        /// Gets or sets the query.
+        /// </summary>
+        /// <value>
+        /// The query.
+        /// </value>
         [JsonProperty("query")]
         public string Query
         {
@@ -39,6 +66,12 @@ namespace Microsoft.ProjectOxford.Search.Autosuggest
             set;
         }
 
+        /// <summary>
+        /// Gets or sets the kind of the search.
+        /// </summary>
+        /// <value>
+        /// The kind of the search.
+        /// </value>
         [JsonProperty("documents")]
         public string SearchKind
         {

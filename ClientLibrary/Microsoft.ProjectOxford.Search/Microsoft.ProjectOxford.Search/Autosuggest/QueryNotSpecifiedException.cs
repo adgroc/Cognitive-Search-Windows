@@ -6,10 +6,17 @@ using System.Threading.Tasks;
 
 namespace Microsoft.ProjectOxford.Search.Autosuggest
 {
+    /// <summary>
+    /// Exception thrown when a query is not specified.
+    /// </summary>
+    /// <seealso cref="System.ApplicationException" />
     public class QueryNotSpecifiedException : ApplicationException
     {
         #region Properties
 
+        /// <summary>
+        /// Gets a message that describes the current exception.
+        /// </summary>
         public override string Message
         {
             get
