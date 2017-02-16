@@ -6,7 +6,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Microsoft.ProjectOxford.Search.Common
+namespace Microsoft.ProjectOxford.Search.Core
 {
     public abstract class SearchClient
     {

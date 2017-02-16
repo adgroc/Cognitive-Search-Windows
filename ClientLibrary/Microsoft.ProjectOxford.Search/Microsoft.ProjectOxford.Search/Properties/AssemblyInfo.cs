@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Microsoft.ProjectOxford.Search.Common")]
+[assembly: AssemblyTitle("Microsoft.ProjectOxford.Search")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Microsoft.ProjectOxford.Search.Common")]
+[assembly: AssemblyProduct("Microsoft.ProjectOxford.Search")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("d98f91cd-56ce-4e42-a304-a87aeceb1e3c")]
+[assembly: Guid("92cf654b-68bc-414f-9300-57b5e890daa3")]
 
 // Version information for an assembly consists of the following four values:
 //
