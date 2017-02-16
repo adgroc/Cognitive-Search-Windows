@@ -11,8 +11,8 @@
     <iconUrl>https://raw.githubusercontent.com/adgroc/Cognitive-Search-Windows/master/Docs/Images/icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Autosuggest.</releaseNotes>
+    <releaseNotes>Video search</releaseNotes>
     <copyright>Copyright 2017</copyright>
-    <tags>Microsoft Project Oxford Cognitive Services Search</tags>
+    <tags>Microsoft Project Oxford Cognitive Services Search Bing</tags>
   </metadata>
 </package>
