@@ -22,6 +22,8 @@ namespace Microsoft.ProjectOxford.Search.Video
         public VideoSearchRequest()
         {
             this.SafeSearch = SafeSearch.Moderate;
+            this.Count = 0;
+            this.Offset = 0;
         }
 
         #endregion Constructors
