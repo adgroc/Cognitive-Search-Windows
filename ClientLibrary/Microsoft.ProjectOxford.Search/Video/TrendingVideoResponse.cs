@@ -10,14 +10,14 @@ namespace Microsoft.ProjectOxford.Search.Video
     /// <summary>
     /// Response from trending video API.
     /// </summary>
-    public class TrendingResponse
+    public class TrendingVideoResponse
     {
         #region Constructors
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="TrendingResponse"/> class.
+        /// Initializes a new instance of the <see cref="TrendingVideoResponse"/> class.
         /// </summary>
-        public TrendingResponse()
+        public TrendingVideoResponse()
         {
             this.Instrumentation = new Instrumentation();
             this.BannerTiles = new List<Tile>();

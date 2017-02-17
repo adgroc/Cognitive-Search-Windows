@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace Microsoft.ProjectOxford.Search.Video
 {
     /// <summary>
-    /// Client for interacting with the video search.
+    /// Client for interacting with the video search API.
     /// </summary>
     /// <seealso cref="Microsoft.ProjectOxford.Search.Core.SearchClient" />
     public class VideoSearchClient : SearchClient
