@@ -46,7 +46,7 @@ namespace Microsoft.ProjectOxford.Search.Video
         /// <value>
         /// The headline.
         /// </value>
-        [JsonProperty("headline")]
+        [JsonProperty("headLine")]
         public string Headline
         {
             get;
