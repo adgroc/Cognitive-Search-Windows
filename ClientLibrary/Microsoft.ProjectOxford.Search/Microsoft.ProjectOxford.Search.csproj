@@ -57,9 +57,9 @@
     <Compile Include="Core\ISearchRequest.cs" />
     <Compile Include="Core\SearchClient.cs" />
     <Compile Include="Core\ThumbnailDimensions.cs" />
-    <Compile Include="Video\Category.cs" />
+    <Compile Include="Video\VideoCategory.cs" />
     <Compile Include="Video\Creator.cs" />
-    <Compile Include="Video\Subcategory.cs" />
+    <Compile Include="Video\VideoSubcategory.cs" />
     <Compile Include="Video\VideoTileImage.cs" />
     <Compile Include="Core\Instrumentation.cs" />
     <Compile Include="Video\PivotSuggestion.cs" />

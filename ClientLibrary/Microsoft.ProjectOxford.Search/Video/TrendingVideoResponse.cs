@@ -22,7 +22,7 @@ namespace Microsoft.ProjectOxford.Search.Video
         {
             this.Instrumentation = new Instrumentation();
             this.BannerTiles = new List<VideoTile>();
-            this.Categories = new List<Category>();
+            this.Categories = new List<VideoCategory>();
         }
 
         #endregion
@@ -75,7 +75,7 @@ namespace Microsoft.ProjectOxford.Search.Video
         /// The categories.
         /// </value>
         [JsonProperty("categories")]
-        public List<Category> Categories
+        public List<VideoCategory> Categories
         {
             get;
             set;

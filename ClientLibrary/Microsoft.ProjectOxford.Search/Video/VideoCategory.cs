@@ -10,16 +10,16 @@ namespace Microsoft.ProjectOxford.Search.Video
     /// <summary>
     /// Category returned from video detail API.
     /// </summary>
-    public class Category
+    public class VideoCategory
     {
         #region Constructors
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="Category"/> class.
+        /// Initializes a new instance of the <see cref="VideoCategory"/> class.
         /// </summary>
-        public Category()
+        public VideoCategory()
         {
-            this.Subcategories = new List<Subcategory>();
+            this.Subcategories = new List<VideoSubcategory>();
         }
 
         #endregion Constructors
@@ -33,7 +33,7 @@ namespace Microsoft.ProjectOxford.Search.Video
         /// The subcategories.
         /// </value>
         [JsonProperty("subcategories")]
-        public List<Subcategory> Subcategories
+        public List<VideoSubcategory> Subcategories
         {
             get;
             set;
