@@ -1,16 +1,16 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Microsoft.ProjectOxford.Search.Autosuggest;
 using System.Configuration;
 using Microsoft.ProjectOxford.Search.Core;
+using Microsoft.ProjectOxford.Search.Video;
 
 namespace Microsoft.ProjectOxford.Search.Test
 {
     /// <summary>
-    /// Unit tests for the AutosuggestClient class.
+    /// Unit tests for the VideoSearchClient class.
     /// </summary>
     [TestClass]
-    public class AutosuggestClientTest
+    public class VideoSearchClientTest
     {
         #region Fields
 
@@ -26,7 +26,7 @@ namespace Microsoft.ProjectOxford.Search.Test
         [TestInitialize]
         public void Intialize()
         {
-            apiKey = ConfigurationManager.AppSettings["autosuggestApiKey"];
+            apiKey = ConfigurationManager.AppSettings["searchApiKey"];
         }
 
         #endregion Test Initialization
@@ -37,31 +37,33 @@ namespace Microsoft.ProjectOxford.Search.Test
         /// Tests the Validate() method to ensure a query is specified.
         /// </summary>
         [TestMethod]
-        [TestCategory("Autosuggest")]
+        [TestCategory("Video search")]
         [ExpectedException(typeof(QueryNotSpecifiedException))]
         public void ValidateTest_QueryNotSpecified()
         {
-            var request = new AutosuggestRequest();
+            var request = new VideoSearchRequest();
             request.Validate();
         }
 
         /// <summary>
-        /// Tests the GetSuggestions() method.
+        /// Tests the GetVideos() method.
         /// </summary>
         [TestMethod]
-        [TestCategory("Autosuggest")]
-        public void GetSuggestionsTest()
+        [TestCategory("Video search")]
+        public void GetVideosTest()
         {
-            var request = new AutosuggestRequest();
-            request.Query = "bill gates";
-            request.Market = "en-us";
+            var request = new VideoSearchRequest();
+            request.Query = "cats";
+            request.Count = 10;
+            request.Offset = 0;
+            request.Market = "en-US";
+            request.SafeSearch = SafeSearch.Moderate;
 
-            var client = new AutosuggestClient(this.apiKey);
+            var client = new VideoSearchClient(this.apiKey);
 
-            var response = client.GetSuggestions(request);
+            var response = client.GetVideos(request);
 
-            Assert.IsTrue(response.SuggestionGroups.Count >= 0);
-            Assert.IsTrue(response.SuggestionGroups[0].SearchSuggestions.Count >= 0);
+            Assert.IsTrue(response.Videos.Count > 0);
         }
 
         #endregion Test Methods
