@@ -60,6 +60,7 @@
     <Compile Include="Video\Instrumentation.cs" />
     <Compile Include="Video\PivotSuggestion.cs" />
     <Compile Include="Video\Publisher.cs" />
+    <Compile Include="Video\Query.cs" />
     <Compile Include="Video\QueryExpansion.cs" />
     <Compile Include="Video\SafeSearch.cs" />
     <Compile Include="Video\Suggestion.cs" />
