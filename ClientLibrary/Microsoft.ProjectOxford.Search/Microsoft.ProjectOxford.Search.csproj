@@ -58,7 +58,9 @@
     <Compile Include="Core\SearchClient.cs" />
     <Compile Include="Core\ThumbnailDimensions.cs" />
     <Compile Include="Image\Category.cs" />
+    <Compile Include="Image\Image.cs" />
     <Compile Include="Image\ImageSearchRequest.cs" />
+    <Compile Include="Image\InsightsSourcesSummary.cs" />
     <Compile Include="Image\Tile.cs" />
     <Compile Include="Image\TileImage.cs" />
     <Compile Include="Image\TileQuery.cs" />
