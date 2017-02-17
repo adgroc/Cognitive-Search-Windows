@@ -49,9 +49,9 @@ namespace Microsoft.ProjectOxford.Search.Video
         {
             request.Validate();
 
-            var requestUrl = string.Format("{0}?id={1}&modulesRequested=RelatedVideos&modulesRequested=VideoResult", this.Url, request.Id);
+            var requestUrl = string.Format("{0}?id={1}&modulesRequested=RelatedVideos&modulesRequested=VideoResult", Url, request.Id);
 
-            var responseJson = await this.SendGetAsync(requestUrl);
+            var responseJson = await SendGetAsync(requestUrl);
             var response = JsonConvert.DeserializeObject<VideoDetailResponse>(responseJson);
 
             return response;
