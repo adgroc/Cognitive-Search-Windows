@@ -72,7 +72,7 @@
     <Compile Include="Video\Publisher.cs" />
     <Compile Include="Video\TileQuery.cs" />
     <Compile Include="Video\QueryExpansion.cs" />
-    <Compile Include="Video\SafeSearch.cs" />
+    <Compile Include="Core\SafeSearch.cs" />
     <Compile Include="Video\Suggestion.cs" />
     <Compile Include="Core\Thumbnail.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
