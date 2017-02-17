@@ -74,6 +74,7 @@
     <Compile Include="Video\TrendingVideoClient.cs" />
     <Compile Include="Video\TrendingVideoResponse.cs" />
     <Compile Include="Video\Video.cs" />
+    <Compile Include="Video\VideoDetailClient.cs" />
     <Compile Include="Video\VideoDetailRequest.cs" />
     <Compile Include="Video\VideoDetailResponse.cs" />
     <Compile Include="Video\VideoModule.cs" />

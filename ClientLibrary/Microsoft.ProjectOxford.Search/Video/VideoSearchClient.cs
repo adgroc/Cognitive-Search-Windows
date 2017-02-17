@@ -48,6 +48,8 @@ namespace Microsoft.ProjectOxford.Search.Video
         /// <returns></returns>
         public async Task<VideoSearchResponse> GetVideosAsync(VideoSearchRequest request)
         {
+            request.Validate();
+
             var requestUrl = string.Format("{0}?q={1}", this.Url, WebUtility.UrlEncode(request.Query));
 
             if (request.Count > 0)

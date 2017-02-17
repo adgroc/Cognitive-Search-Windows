@@ -14,6 +14,9 @@ namespace Microsoft.ProjectOxford.Search.Video
     {
         #region Constructors
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="VideoDetailResponse"/> class.
+        /// </summary>
         public VideoDetailResponse()
         {
             this.Instrumentation = new Instrumentation();
