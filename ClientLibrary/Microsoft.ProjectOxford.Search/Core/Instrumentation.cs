@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Microsoft.ProjectOxford.Search.Video
+namespace Microsoft.ProjectOxford.Search.Core
 {
     /// <summary>
     /// Instrumentation returned from video search API.
