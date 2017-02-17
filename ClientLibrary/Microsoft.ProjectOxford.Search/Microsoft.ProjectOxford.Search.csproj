@@ -61,6 +61,7 @@
     <Compile Include="Image\Tile.cs" />
     <Compile Include="Image\TileImage.cs" />
     <Compile Include="Image\TileQuery.cs" />
+    <Compile Include="Image\TrendingImageClient.cs" />
     <Compile Include="Image\TrendingImageResponse.cs" />
     <Compile Include="Video\Category.cs" />
     <Compile Include="Video\Creator.cs" />
