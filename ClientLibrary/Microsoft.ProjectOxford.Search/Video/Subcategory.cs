@@ -8,18 +8,18 @@ using System.Threading.Tasks;
 namespace Microsoft.ProjectOxford.Search.Video
 {
     /// <summary>
-    /// Category returned from video detail API.
+    /// Subcategory returned from the video details API.
     /// </summary>
-    public class VideoCategory
+    public class Subcategory
     {
         #region Constructors
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="VideoCategory"/> class.
+        /// Initializes a new instance of the <see cref="Subcategory"/> class.
         /// </summary>
-        public VideoCategory()
+        public Subcategory()
         {
-            this.Subcategories = new List<VideoSubcategory>();
+            this.Tiles = new List<Tile>();
         }
 
         #endregion Constructors
@@ -27,13 +27,13 @@ namespace Microsoft.ProjectOxford.Search.Video
         #region Properties
 
         /// <summary>
-        /// Gets or sets the subcategories.
+        /// Gets or sets the tiles.
         /// </summary>
         /// <value>
-        /// The subcategories.
+        /// The tiles.
         /// </value>
-        [JsonProperty("subcategories")]
-        public List<VideoSubcategory> Subcategories
+        [JsonProperty("tiles")]
+        public List<Tile> Tiles
         {
             get;
             set;
