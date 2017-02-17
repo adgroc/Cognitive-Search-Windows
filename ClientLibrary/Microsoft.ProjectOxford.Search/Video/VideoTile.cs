@@ -10,7 +10,7 @@ namespace Microsoft.ProjectOxford.Search.Video
     /// <summary>
     /// Tile returned from the video search detail API.
     /// </summary>
-    public class Tile
+    public class VideoTile
     {
         #region Properties
 
@@ -21,7 +21,7 @@ namespace Microsoft.ProjectOxford.Search.Video
         /// The query.
         /// </value>
         [JsonProperty("query")]
-        public TileQuery Query
+        public VideoTileQuery Query
         {
             get;
             set;
@@ -34,7 +34,7 @@ namespace Microsoft.ProjectOxford.Search.Video
         /// The image.
         /// </value>
         [JsonProperty("image")]
-        public TileImage Image
+        public VideoTileImage Image
         {
             get;
             set;

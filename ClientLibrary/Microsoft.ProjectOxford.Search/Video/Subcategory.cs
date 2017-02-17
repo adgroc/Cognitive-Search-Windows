@@ -19,7 +19,7 @@ namespace Microsoft.ProjectOxford.Search.Video
         /// </summary>
         public Subcategory()
         {
-            this.Tiles = new List<Tile>();
+            this.Tiles = new List<VideoTile>();
         }
 
         #endregion Constructors
@@ -33,7 +33,7 @@ namespace Microsoft.ProjectOxford.Search.Video
         /// The tiles.
         /// </value>
         [JsonProperty("tiles")]
-        public List<Tile> Tiles
+        public List<VideoTile> Tiles
         {
             get;
             set;

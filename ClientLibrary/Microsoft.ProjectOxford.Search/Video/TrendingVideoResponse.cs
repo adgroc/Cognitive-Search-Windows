@@ -21,7 +21,7 @@ namespace Microsoft.ProjectOxford.Search.Video
         public TrendingVideoResponse()
         {
             this.Instrumentation = new Instrumentation();
-            this.BannerTiles = new List<Tile>();
+            this.BannerTiles = new List<VideoTile>();
             this.Categories = new List<Category>();
         }
 
@@ -62,7 +62,7 @@ namespace Microsoft.ProjectOxford.Search.Video
         /// The banner tiles.
         /// </value>
         [JsonProperty("bannerTiles")]
-        public List<Tile> BannerTiles
+        public List<VideoTile> BannerTiles
         {
             get;
             set;
