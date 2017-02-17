@@ -61,6 +61,7 @@
     <Compile Include="Image\Image.cs" />
     <Compile Include="Image\ImageSearchRequest.cs" />
     <Compile Include="Image\InsightsSourcesSummary.cs" />
+    <Compile Include="Image\SimilarTerm.cs" />
     <Compile Include="Image\Tile.cs" />
     <Compile Include="Image\TileImage.cs" />
     <Compile Include="Image\TileQuery.cs" />
