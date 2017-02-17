@@ -6,10 +6,10 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.ProjectOxford.Search.Core;
 
-namespace Microsoft.ProjectOxford.Search.Video
+namespace Microsoft.ProjectOxford.Search.Core
 {
     /// <summary>
-    /// Suggestiong returned by the video search API.
+    /// Suggestiong returned by search API's.
     /// </summary>
     public class Suggestion
     {

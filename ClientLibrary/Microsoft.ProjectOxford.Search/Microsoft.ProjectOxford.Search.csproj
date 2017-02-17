@@ -71,12 +71,12 @@
     <Compile Include="Video\Subcategory.cs" />
     <Compile Include="Video\TileImage.cs" />
     <Compile Include="Core\Instrumentation.cs" />
-    <Compile Include="Video\PivotSuggestion.cs" />
+    <Compile Include="Core\PivotSuggestion.cs" />
     <Compile Include="Video\Publisher.cs" />
     <Compile Include="Video\TileQuery.cs" />
     <Compile Include="Core\QueryExpansion.cs" />
     <Compile Include="Core\SafeSearch.cs" />
-    <Compile Include="Video\Suggestion.cs" />
+    <Compile Include="Core\Suggestion.cs" />
     <Compile Include="Core\Thumbnail.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Video\Tile.cs" />

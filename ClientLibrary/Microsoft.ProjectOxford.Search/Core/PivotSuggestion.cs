@@ -5,10 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Microsoft.ProjectOxford.Search.Video
+namespace Microsoft.ProjectOxford.Search.Core
 {
     /// <summary>
-    /// Pivot suggestion returned by the video search API.
+    /// Pivot suggestion returned by search API's.
     /// </summary>
     public class PivotSuggestion
     {
