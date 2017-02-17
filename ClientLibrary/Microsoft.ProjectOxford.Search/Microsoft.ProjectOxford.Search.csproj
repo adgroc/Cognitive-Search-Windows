@@ -57,6 +57,7 @@
     <Compile Include="Core\SearchClient.cs" />
     <Compile Include="Core\ThumbnailDimensions.cs" />
     <Compile Include="Video\Creator.cs" />
+    <Compile Include="Video\Image.cs" />
     <Compile Include="Video\Instrumentation.cs" />
     <Compile Include="Video\PivotSuggestion.cs" />
     <Compile Include="Video\Publisher.cs" />
