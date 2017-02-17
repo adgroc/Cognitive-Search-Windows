@@ -8,64 +8,64 @@ using System.Threading.Tasks;
 namespace Microsoft.ProjectOxford.Search.Video
 {
     /// <summary>
-    /// Query returned from video details API.
+    /// Image returned from video search API.
     /// </summary>
-    public class Query
+    public class TileImage
     {
-        #region Methods
+        #region Properties
 
         /// <summary>
-        /// Gets or sets the text.
+        /// Gets or sets the description.
         /// </summary>
         /// <value>
-        /// The text.
+        /// The description.
         /// </value>
-        [JsonProperty("text")]
-        public string Text
+        [JsonProperty("description")]
+        public string Description
         {
             get;
             set;
         }
 
         /// <summary>
-        /// Gets or sets the display text.
+        /// Gets or sets the thumbnail URL.
         /// </summary>
         /// <value>
-        /// The display text.
+        /// The thumbnail URL.
         /// </value>
-        [JsonProperty("displayText")]
-        public string DisplayText
+        [JsonProperty("thumbnailUrl")]
+        public string ThumbnailUrl
         {
             get;
             set;
         }
 
         /// <summary>
-        /// Gets or sets the web search URL.
+        /// Gets or sets the headline.
         /// </summary>
         /// <value>
-        /// The web search URL.
+        /// The headline.
         /// </value>
-        [JsonProperty("webSearchUrl")]
-        public string WebSearchUrl
+        [JsonProperty("headline")]
+        public string Headline
         {
             get;
             set;
         }
 
         /// <summary>
-        /// Gets or sets the web search URL ping suffix.
+        /// Gets or sets the content URL.
         /// </summary>
         /// <value>
-        /// The web search URL ping suffix.
+        /// The content URL.
         /// </value>
-        [JsonProperty("webSearchUrlPingSuffix")]
-        public string WebSearchUrlPingSuffix
+        [JsonProperty("contentUrl")]
+        public string ContentUrl
         {
             get;
             set;
         }
 
-        #endregion Methods
+        #endregion Properties
     }
 }

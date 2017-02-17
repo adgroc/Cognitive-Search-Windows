@@ -8,64 +8,64 @@ using System.Threading.Tasks;
 namespace Microsoft.ProjectOxford.Search.Video
 {
     /// <summary>
-    /// Image returned from video search API.
+    /// Query returned from video details API.
     /// </summary>
-    public class Image
+    public class TileQuery
     {
-        #region Properties
+        #region Methods
 
         /// <summary>
-        /// Gets or sets the description.
+        /// Gets or sets the text.
         /// </summary>
         /// <value>
-        /// The description.
+        /// The text.
         /// </value>
-        [JsonProperty("description")]
-        public string Description
+        [JsonProperty("text")]
+        public string Text
         {
             get;
             set;
         }
 
         /// <summary>
-        /// Gets or sets the thumbnail URL.
+        /// Gets or sets the display text.
         /// </summary>
         /// <value>
-        /// The thumbnail URL.
+        /// The display text.
         /// </value>
-        [JsonProperty("thumbnailUrl")]
-        public string ThumbnailUrl
+        [JsonProperty("displayText")]
+        public string DisplayText
         {
             get;
             set;
         }
 
         /// <summary>
-        /// Gets or sets the headline.
+        /// Gets or sets the web search URL.
         /// </summary>
         /// <value>
-        /// The headline.
+        /// The web search URL.
         /// </value>
-        [JsonProperty("headline")]
-        public string Headline
+        [JsonProperty("webSearchUrl")]
+        public string WebSearchUrl
         {
             get;
             set;
         }
 
         /// <summary>
-        /// Gets or sets the content URL.
+        /// Gets or sets the web search URL ping suffix.
         /// </summary>
         /// <value>
-        /// The content URL.
+        /// The web search URL ping suffix.
         /// </value>
-        [JsonProperty("contentUrl")]
-        public string ContentUrl
+        [JsonProperty("webSearchUrlPingSuffix")]
+        public string WebSearchUrlPingSuffix
         {
             get;
             set;
         }
 
-        #endregion Properties
+        #endregion Methods
     }
 }
