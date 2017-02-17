@@ -74,7 +74,7 @@
     <Compile Include="Video\PivotSuggestion.cs" />
     <Compile Include="Video\Publisher.cs" />
     <Compile Include="Video\TileQuery.cs" />
-    <Compile Include="Video\QueryExpansion.cs" />
+    <Compile Include="Core\QueryExpansion.cs" />
     <Compile Include="Core\SafeSearch.cs" />
     <Compile Include="Video\Suggestion.cs" />
     <Compile Include="Core\Thumbnail.cs" />

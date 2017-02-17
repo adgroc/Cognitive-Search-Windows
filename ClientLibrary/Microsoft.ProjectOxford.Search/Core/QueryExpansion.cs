@@ -6,10 +6,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Microsoft.ProjectOxford.Search.Video
+namespace Microsoft.ProjectOxford.Search.Core
 {
     /// <summary>
-    /// Query expansion returned by video search API.
+    /// Query expansion returned by search API's.
     /// </summary>
     public class QueryExpansion
     {
