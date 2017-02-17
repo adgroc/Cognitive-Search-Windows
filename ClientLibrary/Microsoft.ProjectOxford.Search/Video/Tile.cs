@@ -8,45 +8,33 @@ using System.Threading.Tasks;
 namespace Microsoft.ProjectOxford.Search.Video
 {
     /// <summary>
-    /// Tile returned from the video detail API.
+    /// Tile returned from the video search detail API.
     /// </summary>
     public class Tile
     {
-        #region Constructors
-
-        /// <summary>
-        /// Initializes a new instance of the <see cref="Tile"/> class.
-        /// </summary>
-        public Tile()
-        {
-            this.Tiles = new List<TileDetail>();
-        }
-
-        #endregion Constructors
-
         #region Properties
 
         /// <summary>
-        /// Gets or sets the tiles.
+        /// Gets or sets the query.
         /// </summary>
         /// <value>
-        /// The tiles.
+        /// The query.
         /// </value>
-        [JsonProperty("tiles")]
-        public List<TileDetail> Tiles
+        [JsonProperty("query")]
+        public TileQuery Query
         {
             get;
             set;
         }
 
         /// <summary>
-        /// Gets or sets the title.
+        /// Gets or sets the image.
         /// </summary>
         /// <value>
-        /// The title.
+        /// The image.
         /// </value>
-        [JsonProperty("title")]
-        public string Title
+        [JsonProperty("image")]
+        public TileImage Image
         {
             get;
             set;
