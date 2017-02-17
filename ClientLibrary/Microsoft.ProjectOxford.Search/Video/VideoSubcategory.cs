@@ -10,14 +10,14 @@ namespace Microsoft.ProjectOxford.Search.Video
     /// <summary>
     /// Subcategory returned from the video details API.
     /// </summary>
-    public class Subcategory
+    public class VideoSubcategory
     {
         #region Constructors
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="Subcategory"/> class.
+        /// Initializes a new instance of the <see cref="VideoSubcategory"/> class.
         /// </summary>
-        public Subcategory()
+        public VideoSubcategory()
         {
             this.Tiles = new List<VideoTile>();
         }
