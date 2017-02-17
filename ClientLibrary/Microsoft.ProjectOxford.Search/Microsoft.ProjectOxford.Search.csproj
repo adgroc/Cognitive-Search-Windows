@@ -50,6 +50,7 @@
     <Compile Include="Autosuggest\AutosuggestRequest.cs" />
     <Compile Include="Autosuggest\AutosuggestResponse.cs" />
     <Compile Include="Autosuggest\QueryContext.cs" />
+    <Compile Include="Core\IdNotSpecifiedException.cs" />
     <Compile Include="Core\QueryNotSpecifiedException.cs" />
     <Compile Include="Autosuggest\SearchSuggestion.cs" />
     <Compile Include="Autosuggest\SuggestionGroup.cs" />
@@ -73,6 +74,7 @@
     <Compile Include="Video\TrendingVideoClient.cs" />
     <Compile Include="Video\TrendingVideoResponse.cs" />
     <Compile Include="Video\Video.cs" />
+    <Compile Include="Video\VideoDetailRequest.cs" />
     <Compile Include="Video\VideoModule.cs" />
     <Compile Include="Video\VideoSearchClient.cs" />
     <Compile Include="Video\VideoSearchRequest.cs" />
