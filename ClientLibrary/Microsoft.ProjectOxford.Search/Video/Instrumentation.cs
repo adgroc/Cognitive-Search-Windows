@@ -27,6 +27,19 @@ namespace Microsoft.ProjectOxford.Search.Video
             set;
         }
 
+        /// <summary>
+        /// Gets or sets the ping URL base.
+        /// </summary>
+        /// <value>
+        /// The ping URL base.
+        /// </value>
+        [JsonProperty("pingUrlBase")]
+        public string PingUrlBase
+        {
+            get;
+            set;
+        }
+
         #endregion
     }
 }
