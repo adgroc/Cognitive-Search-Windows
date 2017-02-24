@@ -59,6 +59,7 @@
     <Compile Include="AutosuggestClientTest.cs" />
     <Compile Include="TrendingVideoClientTest.cs" />
     <Compile Include="TrendingImageClientTest.cs" />
+    <Compile Include="ImageSearchClientTest.cs" />
     <Compile Include="VideoDetailClientTest.cs" />
     <Compile Include="VideoSearchClientTest.cs" />
   </ItemGroup>
