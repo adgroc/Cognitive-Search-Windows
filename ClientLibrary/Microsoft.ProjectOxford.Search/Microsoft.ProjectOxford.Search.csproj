@@ -59,6 +59,7 @@
     <Compile Include="Core\ThumbnailDimensions.cs" />
     <Compile Include="Image\Category.cs" />
     <Compile Include="Image\Image.cs" />
+    <Compile Include="Image\ImageSearchClient.cs" />
     <Compile Include="Image\ImageSearchRequest.cs" />
     <Compile Include="Image\ImageSearchResponse.cs" />
     <Compile Include="Image\InsightsSourcesSummary.cs" />
