@@ -10,7 +10,8 @@ namespace Microsoft.ProjectOxford.Search.Image
     /// <summary>
     /// Request for interacting with the image search API.
     /// </summary>
-    public class ImageSearchRequest
+    /// <seealso cref="Microsoft.ProjectOxford.Search.Core.ISearchRequest" />
+    public class ImageSearchRequest : ISearchRequest
     {
         #region Constructors
 

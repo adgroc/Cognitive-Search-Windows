@@ -59,6 +59,8 @@
     <Compile Include="Core\ThumbnailDimensions.cs" />
     <Compile Include="Image\Category.cs" />
     <Compile Include="Image\Image.cs" />
+    <Compile Include="Image\ImageDataNotProvidedException.cs" />
+    <Compile Include="Image\ImageInsightsRequest.cs" />
     <Compile Include="Image\ImageSearchClient.cs" />
     <Compile Include="Image\ImageSearchRequest.cs" />
     <Compile Include="Image\ImageSearchResponse.cs" />
