@@ -72,6 +72,9 @@
     <Compile Include="Image\TileQuery.cs" />
     <Compile Include="Image\TrendingImageClient.cs" />
     <Compile Include="Image\TrendingImageResponse.cs" />
+    <Compile Include="News\Category.cs" />
+    <Compile Include="News\CategoryNewsRequest.cs" />
+    <Compile Include="News\Provider.cs" />
     <Compile Include="Video\Category.cs" />
     <Compile Include="Video\Creator.cs" />
     <Compile Include="Video\Subcategory.cs" />
