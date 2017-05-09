@@ -75,6 +75,7 @@
     <Compile Include="News\Category.cs" />
     <Compile Include="News\CategoryNewsRequest.cs" />
     <Compile Include="News\Provider.cs" />
+    <Compile Include="News\Thumbnail.cs" />
     <Compile Include="Video\Category.cs" />
     <Compile Include="Video\Creator.cs" />
     <Compile Include="Video\Subcategory.cs" />

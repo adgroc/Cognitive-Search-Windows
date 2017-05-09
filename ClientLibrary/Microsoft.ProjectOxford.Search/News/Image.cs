@@ -7,32 +7,31 @@ using System.Threading.Tasks;
 namespace Microsoft.ProjectOxford.Search.News
 {
     /// <summary>
-    /// News provider.
+    /// Image object returned by News API.
     /// </summary>
-    public class Provider
+    public class Image
     {
+        #region Constructors
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Image"/> class.
+        /// </summary>
+        public Image()
+        {
+            Thumbnail = new Thumbnail();
+        }
+
+        #endregion Constructors
 
         #region Properties
 
         /// <summary>
-        /// Gets or sets the type.
+        /// Gets or sets the thumbnail.
         /// </summary>
         /// <value>
-        /// The type.
+        /// The thumbnail.
         /// </value>
-        public string Type
-        {
-            get;
-            set;
-        }
-
-        /// <summary>
-        /// Gets or sets the name.
-        /// </summary>
-        /// <value>
-        /// The name.
-        /// </value>
-        public string Name
+        public Thumbnail Thumbnail
         {
             get;
             set;

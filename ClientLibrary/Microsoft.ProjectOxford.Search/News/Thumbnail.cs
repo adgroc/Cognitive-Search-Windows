@@ -7,37 +7,48 @@ using System.Threading.Tasks;
 namespace Microsoft.ProjectOxford.Search.News
 {
     /// <summary>
-    /// News provider.
+    /// Thumbnail object.
     /// </summary>
-    public class Provider
+    public class Thumbnail
     {
-
         #region Properties
 
         /// <summary>
-        /// Gets or sets the type.
+        /// Gets or sets the content URL.
         /// </summary>
         /// <value>
-        /// The type.
+        /// The content URL.
         /// </value>
-        public string Type
+        public string ContentUrl
         {
             get;
             set;
         }
 
         /// <summary>
-        /// Gets or sets the name.
+        /// Gets or sets the height.
         /// </summary>
         /// <value>
-        /// The name.
+        /// The height.
         /// </value>
-        public string Name
+        public int Height
         {
             get;
             set;
         }
 
-        #endregion Properties
+        /// <summary>
+        /// Gets or sets the width.
+        /// </summary>
+        /// <value>
+        /// The width.
+        /// </value>
+        public int Width
+        {
+            get;
+            set;
+        }       
+
+        #endregion Properites
     }
 }

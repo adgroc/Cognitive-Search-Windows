@@ -7,20 +7,19 @@ using System.Threading.Tasks;
 namespace Microsoft.ProjectOxford.Search.News
 {
     /// <summary>
-    /// News provider.
+    /// About data returned by News API.
     /// </summary>
-    public class Provider
+    public class About
     {
-
         #region Properties
 
         /// <summary>
-        /// Gets or sets the type.
+        /// Gets or sets the read link.
         /// </summary>
         /// <value>
-        /// The type.
+        /// The read link.
         /// </value>
-        public string Type
+        public string ReadLink
         {
             get;
             set;
