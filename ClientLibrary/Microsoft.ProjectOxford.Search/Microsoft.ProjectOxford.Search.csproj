@@ -126,6 +126,12 @@
     <Compile Include="Web\ImageResult.cs" />
     <Compile Include="Web\Images.cs" />
     <Compile Include="Web\ImageThumbnail.cs" />
+    <Compile Include="Web\NewsAbout.cs" />
+    <Compile Include="Web\NewsImage.cs" />
+    <Compile Include="Web\NewsProvider.cs" />
+    <Compile Include="Web\News.cs" />
+    <Compile Include="Web\NewsResult.cs" />
+    <Compile Include="Web\NewsThumbnail.cs" />
     <Compile Include="Web\WebPageAbout.cs" />
     <Compile Include="Web\WebPageDeepLink.cs" />
     <Compile Include="Web\WebPageResult.cs" />
