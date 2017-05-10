@@ -132,6 +132,8 @@
     <Compile Include="Web\News.cs" />
     <Compile Include="Web\NewsResult.cs" />
     <Compile Include="Web\NewsThumbnail.cs" />
+    <Compile Include="Web\RelatedSearches.cs" />
+    <Compile Include="Web\RelatedSearchResult.cs" />
     <Compile Include="Web\WebPageAbout.cs" />
     <Compile Include="Web\WebPageDeepLink.cs" />
     <Compile Include="Web\WebPageResult.cs" />
