@@ -21,7 +21,7 @@ namespace Microsoft.ProjectOxford.Search.News
         {
             Image = new Image();
             About = new List<About>();
-            Provider = new Provider();
+            Provider = new List<Provider>();
         }
 
         #endregion Constructors
@@ -100,7 +100,7 @@ namespace Microsoft.ProjectOxford.Search.News
         /// The provider.
         /// </value>
         [JsonProperty("provider")]
-        public Provider Provider
+        public List<Provider> Provider
         {
             get;
             set;
