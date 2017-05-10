@@ -47,6 +47,8 @@ namespace Microsoft.ProjectOxford.Search.News
         /// <returns></returns>
         public async Task<CategoryNewsResponse> GetCategoryNewsAsync(CategoryNewsRequest request)
         {
+            request.Validate();
+
             var category = GetCategoryForQueryString(request);
 
             var requestUrl = string.Format("{0}{1}", this.Url, category);

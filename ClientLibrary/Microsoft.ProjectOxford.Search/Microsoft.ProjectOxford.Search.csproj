@@ -88,7 +88,13 @@
     <Compile Include="News\Image.cs" />
     <Compile Include="News\Mention.cs" />
     <Compile Include="News\Provider.cs" />
+    <Compile Include="News\Query.cs" />
     <Compile Include="News\Thumbnail.cs" />
+    <Compile Include="News\TrendingTopicClient.cs" />
+    <Compile Include="News\TrendingTopicImage.cs" />
+    <Compile Include="News\TrendingTopicRequest.cs" />
+    <Compile Include="News\TrendingTopicResponse.cs" />
+    <Compile Include="News\TrendingTopicResult.cs" />
     <Compile Include="Video\Category.cs" />
     <Compile Include="Video\Creator.cs" />
     <Compile Include="Video\Subcategory.cs" />
