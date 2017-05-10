@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,6 +20,7 @@ namespace Microsoft.ProjectOxford.Search.News
         /// <value>
         /// The content URL.
         /// </value>
+        [JsonProperty("contentUrl")]
         public string ContentUrl
         {
             get;
@@ -31,6 +33,7 @@ namespace Microsoft.ProjectOxford.Search.News
         /// <value>
         /// The height.
         /// </value>
+        [JsonProperty("height")]
         public int Height
         {
             get;
@@ -43,6 +46,7 @@ namespace Microsoft.ProjectOxford.Search.News
         /// <value>
         /// The width.
         /// </value>
+        [JsonProperty("width")]
         public int Width
         {
             get;

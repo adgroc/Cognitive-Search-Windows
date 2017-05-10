@@ -8,24 +8,11 @@ using System.Threading.Tasks;
 namespace Microsoft.ProjectOxford.Search.News
 {
     /// <summary>
-    /// About data returned by News API.
+    /// Mention from News API.
     /// </summary>
-    public class About
+    public class Mention
     {
         #region Properties
-
-        /// <summary>
-        /// Gets or sets the read link.
-        /// </summary>
-        /// <value>
-        /// The read link.
-        /// </value>
-        [JsonProperty("readLink")]
-        public string ReadLink
-        {
-            get;
-            set;
-        }
 
         /// <summary>
         /// Gets or sets the name.

@@ -8,10 +8,21 @@ using System.Threading.Tasks;
 namespace Microsoft.ProjectOxford.Search.News
 {
     /// <summary>
-    /// News provider.
+    /// Response from category news APi.
     /// </summary>
-    public class Provider
+    public class CategoryNewsResponse
     {
+        #region Constructors
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="CategoryNewsResponse"/> class.
+        /// </summary>
+        public CategoryNewsResponse()
+        {
+            Results = new List<CategoryNewsResult>();
+        }
+
+        #endregion Constructors
 
         #region Properties
 
@@ -29,13 +40,13 @@ namespace Microsoft.ProjectOxford.Search.News
         }
 
         /// <summary>
-        /// Gets or sets the name.
+        /// Gets or sets the results.
         /// </summary>
         /// <value>
-        /// The name.
+        /// The results.
         /// </value>
-        [JsonProperty("name")]
-        public string Name
+        [JsonProperty("value")]
+        public List<CategoryNewsResult> Results
         {
             get;
             set;
