@@ -87,6 +87,11 @@
     <Compile Include="News\ClusteredArticle.cs" />
     <Compile Include="News\Image.cs" />
     <Compile Include="News\Mention.cs" />
+    <Compile Include="News\NewsSearchClient.cs" />
+    <Compile Include="News\NewsSearchRequest.cs" />
+    <Compile Include="News\NewsSearchResponse.cs" />
+    <Compile Include="News\NewsSearchResult.cs" />
+    <Compile Include="News\NewsSort.cs" />
     <Compile Include="News\Provider.cs" />
     <Compile Include="News\Query.cs" />
     <Compile Include="News\Thumbnail.cs" />
