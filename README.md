@@ -1,4 +1,4 @@
-![Text Analytics](Docs/Images/icon.png)
+![Search](Docs/Images/icon.png)
 
 # Search API: Windows Client Library & Sample
 
@@ -6,11 +6,11 @@
 The Cognitive Services Search API is a suite of services that offers APIs for autosuggestion, image search, new search, video search, and web search.
 
 The solution contains the SDK and a sample application that allows you to enter your API key and text to perform the following actions:
-- Autosuggest *coming soon*
-- Image search *coming soon*
-- News search *coming soon*
-- Video search *coming soon*
-- Web search *coming soon*
+- Autosuggest
+- Image search
+- News search
+- Video search
+- Web search
 
 ## The Client Library
 The client library is a thin C\# client wrapper for Microsoft Text Analytics API. The easiest way to use this client library is to get microsoft.projectoxford.search package from [nuget](http://nuget.org).
