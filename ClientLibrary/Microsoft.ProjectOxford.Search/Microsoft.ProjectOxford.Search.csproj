@@ -134,6 +134,10 @@
     <Compile Include="Web\NewsThumbnail.cs" />
     <Compile Include="Web\RelatedSearches.cs" />
     <Compile Include="Web\RelatedSearchResult.cs" />
+    <Compile Include="Web\VideoPublisher.cs" />
+    <Compile Include="Web\VideoResult.cs" />
+    <Compile Include="Web\Videos.cs" />
+    <Compile Include="Web\VideoThumbnail.cs" />
     <Compile Include="Web\WebPageAbout.cs" />
     <Compile Include="Web\WebPageDeepLink.cs" />
     <Compile Include="Web\WebPageResult.cs" />
