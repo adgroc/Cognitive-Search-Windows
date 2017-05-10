@@ -61,6 +61,7 @@
     <Compile Include="TrendingImageClientTest.cs" />
     <Compile Include="ImageSearchClientTest.cs" />
     <Compile Include="CategoryNewsClientTest.cs" />
+    <Compile Include="TrendingTopicClientTest.cs" />
     <Compile Include="VideoDetailClientTest.cs" />
     <Compile Include="VideoSearchClientTest.cs" />
   </ItemGroup>
