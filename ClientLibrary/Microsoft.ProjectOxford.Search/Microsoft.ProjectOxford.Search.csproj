@@ -80,6 +80,7 @@
     <Compile Include="Image\TrendingImageResponse.cs" />
     <Compile Include="News\About.cs" />
     <Compile Include="News\Category.cs" />
+    <Compile Include="News\CategoryNewsClient.cs" />
     <Compile Include="News\CategoryNewsRequest.cs" />
     <Compile Include="News\CategoryNewsResponse.cs" />
     <Compile Include="News\CategoryNewsResult.cs" />
