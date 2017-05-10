@@ -123,6 +123,9 @@
     <Compile Include="Video\VideoSearchClient.cs" />
     <Compile Include="Video\VideoSearchRequest.cs" />
     <Compile Include="Video\VideoSearchResponse.cs" />
+    <Compile Include="Web\ImageResult.cs" />
+    <Compile Include="Web\Images.cs" />
+    <Compile Include="Web\ImageThumbnail.cs" />
     <Compile Include="Web\WebPageAbout.cs" />
     <Compile Include="Web\WebPageDeepLink.cs" />
     <Compile Include="Web\WebPageResult.cs" />
