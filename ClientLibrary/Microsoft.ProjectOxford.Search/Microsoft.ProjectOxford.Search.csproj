@@ -123,6 +123,10 @@
     <Compile Include="Video\VideoSearchClient.cs" />
     <Compile Include="Video\VideoSearchRequest.cs" />
     <Compile Include="Video\VideoSearchResponse.cs" />
+    <Compile Include="Web\WebPageAbout.cs" />
+    <Compile Include="Web\WebPageDeepLink.cs" />
+    <Compile Include="Web\WebPageResult.cs" />
+    <Compile Include="Web\WebPages.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
