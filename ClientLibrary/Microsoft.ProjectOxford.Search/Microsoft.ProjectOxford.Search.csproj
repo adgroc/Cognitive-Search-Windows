@@ -142,6 +142,9 @@
     <Compile Include="Web\WebPageDeepLink.cs" />
     <Compile Include="Web\WebPageResult.cs" />
     <Compile Include="Web\WebPages.cs" />
+    <Compile Include="Web\WebSearchClient.cs" />
+    <Compile Include="Web\WebSearchRequest.cs" />
+    <Compile Include="Web\WebSearchResponse.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

@@ -6,46 +6,48 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Microsoft.ProjectOxford.Search.News
+namespace Microsoft.ProjectOxford.Search.Web
 {
     /// <summary>
-    /// Client for interacting with news search API.
+    /// Client for interacting with the web search API.
     /// </summary>
     /// <seealso cref="Microsoft.ProjectOxford.Search.Core.SearchClient" />
-    public class NewsSearchClient : SearchClient
+    public class WebSearchClient : SearchClient
     {
         #region Constructors
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="NewsSearchClient"/> class.
+        /// Initializes a new instance of the <see cref="WebSearchClient"/> class.
         /// </summary>
         /// <param name="apiKey">The API key.</param>
-        public NewsSearchClient(string apiKey)
+        public WebSearchClient(string apiKey)
             : base(apiKey)
         {
-            this.Url = "https://api.cognitive.microsoft.com/bing/v5.0/news/search";
+            this.Url = "https://api.cognitive.microsoft.com/bing/v5.0/search";
         }
 
         #endregion Constructors
 
         #region Methods
 
+
         /// <summary>
-        /// Gets the news.
+        /// Gets the web results.
         /// </summary>
         /// <param name="request">The request.</param>
         /// <returns></returns>
-        public NewsSearchResponse GetNews(NewsSearchRequest request)
+        public WebSearchResponse GetWebResults(WebSearchRequest request)
         {
-            return GetNewsAsync(request).Result;
+            return GetWebResultsAsync(request).Result;
         }
+
 
         /// <summary>
         /// Gets the news asynchronous.
         /// </summary>
         /// <param name="request">The request.</param>
         /// <returns></returns>
-        public async Task<NewsSearchResponse> GetNewsAsync(NewsSearchRequest request)
+        public async Task<WebSearchResponse> GetWebResultsAsync(WebSearchRequest request)
         {
             request.Validate();
 
@@ -63,7 +65,7 @@ namespace Microsoft.ProjectOxford.Search.News
             requestUrl = string.Format("{0}&safeSearch={1}", requestUrl, request.SafeSearch.ToString());
 
             var responseJson = await this.SendGetAsync(requestUrl);
-            var response = JsonConvert.DeserializeObject<NewsSearchResponse>(responseJson);
+            var response = JsonConvert.DeserializeObject<WebSearchResponse>(responseJson);
 
             return response;
         }
