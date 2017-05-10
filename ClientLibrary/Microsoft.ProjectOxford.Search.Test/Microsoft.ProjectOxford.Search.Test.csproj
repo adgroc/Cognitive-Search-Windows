@@ -63,6 +63,7 @@
     <Compile Include="CategoryNewsClientTest.cs" />
     <Compile Include="TrendingTopicClientTest.cs" />
     <Compile Include="NewsSearchClientTest.cs" />
+    <Compile Include="WebSearchClientTest.cs" />
     <Compile Include="VideoDetailClientTest.cs" />
     <Compile Include="VideoSearchClientTest.cs" />
   </ItemGroup>
