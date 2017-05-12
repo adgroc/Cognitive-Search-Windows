@@ -18,7 +18,7 @@ The solution contains the SDK and a sample application that allows you to enter 
 - Web search
 
 ## The Client Library
-The client library is a thin C\# client wrapper for Microsoft Text Analytics API. The easiest way to use this client library is to get microsoft.projectoxford.search package from [nuget](http://nuget.org).
+The client library is a thin C\# client wrapper for Microsoft Search API. The easiest way to use this client library is to get microsoft.projectoxford.search package from [nuget](http://nuget.org).
 
 Please go to the [Search API Package in Nuget](https://www.nuget.org/packages/Microsoft.ProjectOxford.Search/) for more details.
 
